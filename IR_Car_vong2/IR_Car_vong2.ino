@@ -31,7 +31,7 @@ void setup() {
 }
 void loop()
 {
-  speed_car = 160;
+  speed_car = 160; 
   uint8_t sensor = c.IRLed_GetAllFilted() ;
   chay_binh_thuong ();
   if (sensor == 0b1111111 || sensor == 0b0111111 || sensor == 0b1111110 || sensor == 0b1111100 || sensor == 0011111 )
